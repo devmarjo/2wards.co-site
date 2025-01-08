@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1800 685" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4701.68,-127.107)">
+        <g id="Prancheta1" transform="matrix(7.60654,0,0,2.24729,9217.49,409.443)">
+            <rect x="-593.675" y="-125.634" width="236.638" height="304.519" style="fill:none;"/>
+            <g transform="matrix(0.201173,0,0,0.737973,-682.64,-100.906)">
+                <g id="Camada3">
+                    <g id="Camada5">
+                        <g id="Layer1" transform="matrix(0.653497,0,0,0.602978,511.011,-138.272)">
+                            <g transform="matrix(3.70322,0,0,2.42634,-604.261,-707.772)">
+                                <g id="Camada1">
+                                    <path d="M572.6,597.016L584.585,578.988L554.928,534.337L554.923,560.953L262.963,560.957L262.963,597.016L572.6,597.016Z" style="fill:rgb(48,184,82);"/>
+                                </g>
+                            </g>
+                            <g transform="matrix(1,0,0,1,-127.354,286.015)">
+                                <text x="465.134px" y="459.222px" style="font-family:'DINCondensed-Bold', 'DIN Condensed';font-weight:700;font-stretch:condensed;font-size:550px;fill:rgb(218,255,218);">W<tspan x="747.284px 943.634px 1150.43px 1357.23px " y="459.222px 459.222px 459.222px 459.222px ">ARDS</tspan></text>
+                            </g>
+                            <g transform="matrix(1.13175,0,0,0.868508,-28.5983,188.816)">
+                                <path d="M60.095,635.542L370.589,635.542L370.589,534.794L198.642,534.794C309.356,433.241 367.497,353.449 367.497,261.567C367.497,154.372 297.605,89.893 209.776,89.893C152.254,89.893 91.021,117.297 50.818,177.745L100.917,253.507C128.75,215.626 164.624,191.447 211.013,191.447C245.65,191.447 278.431,214.82 278.431,261.567C278.431,327.657 228.95,383.27 60.095,545.272L60.095,635.542Z" style="fill:rgb(48,184,82);fill-rule:nonzero;"/>
+                            </g>
+                        </g>
+                        <g id="Camada2">
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

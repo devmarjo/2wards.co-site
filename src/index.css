@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* HeroCards background shadow */
+.shadow {
+  position: absolute;
+  background: hsl(var(--primary) / 0%);
+  border-radius: 24px;
+  rotate: 35deg;
+  z-index: -1;
+  width: 100%;
+  max-width: 50vw;;
+  top: 0px;
+  height: 400px;
+  filter: blur(150px);
+  will-change: transform;
+  animation: shadow-slide infinite .3s linear alternate;
+}
+
+@keyframes shadow-slide {
+  from {
+    background: hsl(var(--primary) /70%);
+  }
+  to {
+    background: hsl(var(--primary) / 80%);
+  }
+}
+
+@media (max-width: 1024px) {
+
+  @keyframes shadow-slide {
+    from {
+      background: hsl(var(--primary) / 70%);
+    }
+    to {
+      background: hsl(var(--primary) / 80%);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes shadow-slide {
+    from {
+      background: hsl(var(--primary) / 70%);
+    }
+    to {
+      background: hsl(var(--primary) / 80%);
+    }
+  }
+}
