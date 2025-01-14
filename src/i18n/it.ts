@@ -147,6 +147,17 @@ export default {
       "whatsapp": "WhatsApp",
       "instagram": "Instagram"
     },
-    WhatsAppMessage: "Ciao, ti contatto per avere maggiori informazioni sui servizi di 2Wards."
+    WhatsAppMessage: "Ciao, ti contatto per avere maggiori informazioni sui servizi di 2Wards.",
+    "courses": {
+      "assessor": {
+        "description": "Siamo specializzati nella formazione di valutatori, che porta al Certificato di Valutatore di Livello 3, la qualifica riconosciuta a livello nazionale per i valutatori che operano sia nell’ambito lavorativo sia in quello formativo. Questa qualifica è equivalente al vecchio A1."
+      },
+      "IQA": {
+        "description": "Siamo fornitori esperti del Certificato IQA di Livello 4, rivolto ai professionisti dell’assicurazione qualità ed equivalente al vecchio V1. Offriamo anche il Certificato di Livello 4 per i ‘Lead’ IQA."
+      },
+      "Trainer": {
+        "description": "Questa qualifica rappresenta un livello iniziale di insegnamento/formazione, destinato a chi sta iniziando a insegnare/formare. È adatta anche a valutatori già qualificati che desiderano ottenere una qualifica come formatori."
+      }
+    }
   }
 }

@@ -44,6 +44,10 @@ export const Navbar = () => {
       href: "#services",
       label: t("services.title"),
     },
+    {
+      href: "#training",
+      label: t("Training"),
+    },
     // {
     //   href: "#testimonials",
     //   label: t("Testimonials"),

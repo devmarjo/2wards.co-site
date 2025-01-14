@@ -1,4 +1,4 @@
-import { Badge } from "./ui/badge";
+// import { Badge } from "./ui/badge";
 import {
   Card,
   CardContent,
@@ -6,62 +6,66 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import imageAssessor from "../assets/courses/assessor.png";
+import imageIQA from "../assets/courses/IQA.png";
+import imageTrainer from "../assets/courses/trainer.png";
+import { useTranslation } from "react-i18next";
 
 interface FeatureProps {
   title: string;
+  heading: string;
   description: string;
   image: string;
 }
 
-const features: FeatureProps[] = [
-  {
-    title: "Responsive Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image4,
-  },
-  {
-    title: "Intuitive user interface",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image3,
-  },
-  {
-    title: "AI-Powered insights",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image,
-  },
-];
 
-const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
-];
+
+// const featureList: string[] = [
+//   "Dark/Light theme",
+//   "Reviews",
+//   "Features",
+//   "Pricing",
+//   "Contact form",
+//   "Our team",
+//   "Responsive design",
+//   "Newsletter",
+//   "Minimalist",
+// ];
 
 export const Features = () => {
+
+
+  const { t } = useTranslation()
+  const features: FeatureProps[] = [
+    {
+      title: "Assessor courses",
+      heading: "Level 3 Certificate in Assessing Vocational Achievement (CAVA)",
+      description: t('courses.assessor.description'),
+      image: imageAssessor,
+    },
+    {
+      title: "IQA courses",
+      heading: "Level 4 Award in the Internal Quality Assurance of Assessment Processes and Practice (IQA)",
+      description: t('courses.IQA.description'),
+      image: imageIQA,
+    },
+    {
+      title: "Trainer courses",
+      heading: "Level 3 Award in Education and Training (AET)",
+      description: t('courses.Trainer.description'),
+      image: imageTrainer,
+    },
+  ];
+
   return (
     <section
-      id="features"
+      id="training"
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
-        </span>
+        Training
       </h2>
-
+{/* 
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
@@ -73,23 +77,27 @@ export const Features = () => {
             </Badge>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map(({ title, description, image }: FeatureProps) => (
+        {features.map(({ title, heading, description, image }: FeatureProps) => (
           <Card key={title}>
             <CardHeader>
               <CardTitle>{title}</CardTitle>
             </CardHeader>
 
-            <CardContent>{description}</CardContent>
+            <CardContent>
+              <b>{heading}</b>
 
-            <CardFooter>
               <img
                 src={image}
                 alt="About feature"
                 className="w-[200px] lg:w-[300px] mx-auto"
               />
+            </CardContent>
+            
+            <CardFooter>
+              {description}
             </CardFooter>
           </Card>
         ))}

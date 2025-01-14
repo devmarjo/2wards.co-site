@@ -146,6 +146,17 @@ export default {
       "whatsapp": "WhatsApp",
       "instagram": "Instagram"
     },
-    WhatsAppMessage: "Olá, estou entrando em contato para saber mais sobre os serviços da 2Wards."
+    WhatsAppMessage: "Olá, estou entrando em contato para saber mais sobre os serviços da 2Wards.",
+    "courses": {
+      "assessor": {
+        "description": "Somos especializados em formação de avaliadores que leva ao Certificado de Avaliador de Nível 3, a qualificação reconhecida nacionalmente para avaliadores que atuam tanto em ambientes de trabalho quanto de treinamento. Essa qualificação é equivalente ao antigo A1."
+      },
+      "IQA": {
+        "description": "Somos fornecedores experientes do Prêmio IQA de Nível 4, voltado para profissionais de garantia de qualidade e equivalente ao antigo V1. Também oferecemos o Certificado de Nível 4 para ‘Lead’ IQAs."
+      },
+      "Trainer": {
+        "description": "Essa qualificação é uma qualificação de ensino/treinamento de nível inicial, destinada a pessoas que estão começando a ensinar/treinar. Também é adequada para avaliadores qualificados que desejam obter uma qualificação de instrutor."
+      }
+    }
   }
 }

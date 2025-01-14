@@ -140,7 +140,7 @@ export default {
         "Pro (£150/month): Access to all templates and service discounts.",
         "Premium (£300/month): One-on-one consultations and exclusive webinars."
       ]
-    },
+    },  
     'Contact Us': 'Contact Us',
     "contactDialog": {
       dialogHeader: 'Get in touch with us through any of our support channels.',
@@ -149,6 +149,17 @@ export default {
       whatsapp: 'WhatsApp',
       instagram: 'Instagram'
     },
-    WhatsAppMessage: "Hello, I’m reaching out to learn more about 2Wards’ services."
+    WhatsAppMessage: "Hello, I’m reaching out to learn more about 2Wards’ services.",
+    courses: {
+      assessor: {
+        description : "We specialise in Assessor training leading to the Level 3 Assessor Certificate, the nationally-recognised qualification for Assessors operating in both work and training environments.  This qualification is equivalent to the old A1.",
+      },
+      IQA: {
+        description : "We are experienced providers of the Level 4 IQA Award which is aimed at quality assurance practitioners and is equivalent to the old V1. We also offer the Level 4 Certificate for ‘Lead’ IQAs.",
+      },
+      Trainer: {
+        description : "This qualification is an entry-level teaching/training qualification aimed at people just starting to teach/train. It is also suitable for qualified Assessors who wish to gain a trainer qualification.",
+      },
+    }
   }
 }

@@ -147,6 +147,17 @@ export default {
       "whatsapp": "WhatsApp",
       "instagram": "Instagram"
     },
-    WhatsAppMessage: "Bună, vă contactez pentru a afla mai multe despre serviciile oferite de 2Wards."
+    WhatsAppMessage: "Bună, vă contactez pentru a afla mai multe despre serviciile oferite de 2Wards.",
+    "courses": {
+      "assessor": {
+        "description": "Ne specializăm în formarea evaluatorilor, care conduce la Certificatul de Evaluator de Nivel 3, calificarea recunoscută la nivel național pentru evaluatorii care activează atât în mediul de lucru, cât și în cel de formare. Această calificare este echivalentă cu vechiul A1."
+      },
+      "IQA": {
+        "description": "Suntem furnizori cu experiență ai Premiului IQA de Nivel 4, care se adresează specialiștilor în asigurarea calității și este echivalent cu vechiul V1. De asemenea, oferim și Certificatul de Nivel 4 pentru „Lead” IQA."
+      },
+      "Trainer": {
+        "description": "Această calificare este un nivel de bază în domeniul predării/formării, destinat persoanelor care încep să predea/formeze. De asemenea, este potrivită pentru evaluatorii calificați care doresc să obțină o calificare de formator."
+      }
+    }
   }
 }
