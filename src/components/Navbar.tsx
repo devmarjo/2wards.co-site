@@ -24,7 +24,7 @@ interface RouteProps {
 }
 import { useTranslation } from 'react-i18next';
 // import { InstagramButton } from "./InstagramButton";
-import { ContactDialog } from "./ContactDialog";
+import { ContactButton } from "./ContactButton";
 
 
 export const Navbar = () => {
@@ -109,7 +109,7 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <ContactDialog variant={"secondary"}/>
+                  <ContactButton variant={"secondary"}/>
                 </nav>
               </SheetContent>
             </Sheet>
@@ -129,7 +129,7 @@ export const Navbar = () => {
                 {route.label}
               </a>
             ))}
-            <ContactDialog variant={"secondary"}/>
+            <ContactButton variant={"secondary"}/>
           </nav>
 
           <div className="hidden md:flex gap-2">

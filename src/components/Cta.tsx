@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { ContactDialog } from "./ContactDialog";
+import { ContactButton } from "./ContactButton";
 
 export const Cta = () => {
   const {t} = useTranslation()
@@ -23,7 +23,7 @@ export const Cta = () => {
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <ContactDialog />
+          <ContactButton />
         </div>
       </div>
     </section>

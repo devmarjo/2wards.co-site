@@ -15,6 +15,7 @@ import { Sponsors } from "./components/Sponsors";
 // import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 import './i18n';
+import { ContactDialog } from "./components/ContactDialog";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       {/* <FAQ /> */}
       <Footer />
       <ScrollToTop />
+      <ContactDialog />
     </>
   );
 }

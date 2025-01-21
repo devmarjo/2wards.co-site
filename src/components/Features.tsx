@@ -81,7 +81,7 @@ export const Features = () => {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ title, heading, description, image }: FeatureProps) => (
-          <Card key={title}>
+          <Card key={title} className="cursor-pointer">
             <CardHeader>
               <CardTitle>{title}</CardTitle>
             </CardHeader>

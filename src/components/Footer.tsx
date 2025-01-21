@@ -1,4 +1,4 @@
-import { ContactDialog } from "./ContactDialog";
+import { ContactButton } from "./ContactButton";
 import { LogoIcon } from "./Icons";
 // import { InstagramButton } from "./InstagramButton";
 
@@ -20,7 +20,7 @@ export const Footer = () => {
 
         <div className="flex justify-center gap-2 text-center">
           <div className="m-auto">
-            <ContactDialog variant={"secondary"} />
+            <ContactButton variant={"secondary"} />
           </div>
         </div>
 
