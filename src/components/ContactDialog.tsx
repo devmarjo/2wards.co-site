@@ -29,7 +29,7 @@ export function ContactDialog() {
     if (isStarted) return
       dispatch(start())
       const handleHashChange = () => {
-        if (window.location.hash === '#contactus') {
+        if (window.location.hash.match(/^#contactus/)) {
           dispatch(setValueTrue());
         } else {
           dispatch(setValueFalse());
