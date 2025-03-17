@@ -1,12 +1,20 @@
-import SvgDark from '@/assets/2.bgblack.svg'
-import SvgLight from '@/assets/2.bgwhite.svg'
+import SvgDark from '@/assets/icons/2.bgblack.svg'
+import SvgLight from '@/assets/icons/2.bgwhite.svg'
+import AvatarSvgDark from '@/assets/icons/2wardsAvatarDark.svg'
+import AvatarSvgLight from '@/assets/icons/2wardsAvatarLight.svg'
 import { useTheme } from "./theme-provider";
 
-export const LogoIcon = ({ height = 50 }) => {
+export const LogoIcon = ({ height = 50, small = false }: {height?: number, small?: boolean}) => {
   const { theme } = useTheme()
+  let src
+  if (small) {
+    src = theme === 'dark' ? AvatarSvgDark : AvatarSvgLight
+  } else {
+    src = theme === 'dark' ? SvgDark : SvgLight
+  }
   return (
     <div>
-      <img src={theme === 'dark' ? SvgDark : SvgLight} alt="Logo" style={{ height }} />
+      <img src={src} alt="Logo" style={{ height }} />
     </div>
   );
 };

@@ -1,0 +1,15 @@
+
+import { LogoIcon } from "@/components/Icons"
+import { SingUpForm } from "@/components/sing-up-form"
+export default function SingUpPage() {
+  return (
+    <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted p-6 md:p-10">
+      <div className="flex w-full max-w-sm flex-col gap-6">
+        <a href="#" className="flex items-center gap-2 self-center font-medium">
+          <LogoIcon height={200} />
+        </a>
+        <SingUpForm />
+      </div>
+    </div>
+  )
+}

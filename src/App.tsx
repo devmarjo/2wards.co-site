@@ -1,43 +1,22 @@
-import { About } from "./components/About";
-import { Cta } from "./components/Cta";
-// import { FAQ } from "./components/FAQ";
-import { Features } from "./components/Features";
-import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
-import { HowItWorks } from "./components/HowItWorks";
-import { Navbar } from "./components/Navbar";
-// import { Newsletter } from "./components/Newsletter";
-// import { Pricing } from "./components/Pricing";
-import { ScrollToTop } from "./components/ScrollToTop";
-import { Services } from "./components/Services";
-import { Sponsors } from "./components/Sponsors";
-// import { Team } from "./components/Team";
-// import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 import './i18n';
-import { ContactDialog } from "./components/ContactDialog";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "@/pages/Home";
+import LoginPage from "./pages/Login";
+import SingUpPage from "./pages/SingUp";
+import WorkspacePage from "./pages/Workspace";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <HowItWorks />
-      <Cta />
-      <Services />
-      <Sponsors />
-      {/* <Testimonials /> */}
-      {/* <Team /> */}
-      <Features />
-      {/* <Pricing /> */}
-      {/* <Newsletter /> */}
-      
-      {/* <FAQ /> */}
-      <Footer />
-      <ScrollToTop />
-      <ContactDialog />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/singUp" element={<SingUpPage />} />
+        <Route path="/workspace" element={<WorkspacePage />} />
+      </Routes>
+    </Router>
   );
 }
 
