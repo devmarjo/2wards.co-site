@@ -8,14 +8,14 @@ import { useTranslation } from 'react-i18next'
 
 
 
-const sponsors: string[] = [
-  cert1,
-  // cert2,
-  // cert3,
-  // cert4,
-  // cert5,
-  // cert6,
-];
+// const sponsors: string[] = [
+//   cert1,
+//   cert2,
+//   cert3,
+//   cert4,
+//   cert5,
+//   cert6,
+// ];
 
 export const Sponsors = () => {
   const { t } = useTranslation()
@@ -27,14 +27,15 @@ export const Sponsors = () => {
       <h2 className="text-center text-3xl md:text-4xl font-bold mb-32">
         {t("Consulting Expertise")}
       </h2>
+      <img src={cert1} className='m-auto my-auto' />
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+      {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-4">
         {sponsors.map((el) => (
           <div>
             <img src={el} className='w-1/2 m-auto my-auto' />
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 };
