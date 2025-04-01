@@ -9,7 +9,7 @@ const { t } = useTranslation()
 return(
             <a
               rel="noreferrer noopener"
-              href={`https://wa.me/447424698736?text=` + encodeURI(t('WhatsAppMessage'))}
+              href={`https://wa.me/442089528721?text=` + encodeURI(t('WhatsAppMessage'))}
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
