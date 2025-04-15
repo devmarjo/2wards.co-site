@@ -195,6 +195,132 @@ export default {
         completeDescription:
           "Calificarea Beauty Therapy Group reunește Diploma de Nivel 2 pentru Terapeuți de Înfrumusețare, Premiul de Nivel 2 în Tratamente Faciale de Îngrijire a Tenului și Diploma de Nivel 3 în Tratamente de Terapie de Frumusețe, formând un parcurs de instruire cuprinzător. Vei aprofunda o gamă largă de competențe esențiale, de la manichiură, epilare și tratamente faciale, până la tehnici mai avansate precum masajul corporal și terapiile faciale cu aparatură electrică. Această diversitate de cunoștințe îți asigură abilitatea de a oferi un pachet complet de servicii profesionale în orice salon sau spa.\n\nProgramul se concentrează, de asemenea, pe elementele cheie de afaceri și servicii pentru clienți, învățându-te cum să efectuezi consultații eficiente, să menții standarde stricte de igienă și să gestionezi programările cu eficiență. Având atât o înțelegere teoretică, cât și competențe practice, vei fi într-o poziție excelentă pentru a reuși într-o piață a muncii competitivă sau chiar pentru a-ți lansa propria afacere în domeniul frumuseții. Acest grup de calificări este o alegere excelentă pentru cei care caută o bază temeinică în terapia de frumusețe modernă, cu multiple posibilități de specializare și avansare în carieră."
       }
+    },
+    coursesGroup: {
+      "assessor_courses": {
+        "description": "Acest curs pregătește persoanele pentru a evalua competențele ocupaționale la locul de muncă și abilitățile vocaționale în contexte educaționale."
+      },
+      "iqa_courses": {
+        "description": "Acest curs este destinat celor care asigură calitatea internă a procesului de evaluare în cadrul formării profesionale."
+      },
+      "trainer_courses": {
+        "description": "Cursuri adresate celor care doresc să predea sau să formeze în învățământul superior sau în medii de învățare pentru adulți."
+      },
+      "beauty_therapy_courses": {
+        "description": "Aceste cursuri acoperă o gamă largă de tratamente precum îngrijirea pielii, machiajul și epilarea, pentru viitorii terapeuți în frumusețe."
+      },
+      "massage_courses": {
+        "description": "Concentrate pe tehnici de masaj corporal, aceste cursuri oferă cunoștințe teoretice și practice pentru activitate profesională."
+      },
+      "nail_courses": {
+        "description": "Cursuri care oferă instruire în tratamente pentru unghii, inclusiv extensii, îmbunătățiri și îngrijire profesională."
+      },
+      "eyelash_courses": {
+        "description": "Aceste cursuri predau aplicarea extensiilor de gene și tratamente pentru sprâncene pentru profesioniștii din domeniul esteticii."
+      },
+      "hairdressing_courses": {
+        "description": "Cursuri de coafură feminină care includ tuns, coafat, colorare și tratamente chimice avansate."
+      },
+      "barbering_courses": {
+        "description": "Aceste cursuri oferă competențe esențiale în tuns, coafat și îngrijirea părului pentru bărbați, în medii de frizerie."
+      },
+      "advanced_aesthetic_courses": {
+        "description": "Calificări avansate pentru practicieni în proceduri estetice non-invazive, știința pielii și tratamente cosmetice."
+      },
+      "health_and_safety_courses": {
+        "description": "Instruire introductivă pentru a asigura practici sigure la locul de muncă, în special în domeniul construcțiilor."
+      },
+      "asbestos_courses": {
+        "description": "Cursuri axate pe conștientizarea riscurilor legate de azbest și manipularea sau eliminarea sigură a acestuia, conform reglementărilor."
+      },
+      "driving_courses": {
+        "description": "Instruire pentru operarea profesională a vehiculelor de transport marfă, incluzând siguranță, verificări și planificarea traseelor."
+      },
+      "painting_courses": {
+        "description": "Acoperă tehnici de vopsire decorativă și industrială utilizate în mediile rezidențiale, comerciale și de construcții."
+      },
+      "fitting_and_interiors_courses": {
+        "description": "Cursuri legate de montarea bucătăriilor, băilor și amenajărilor interioare, cu accent pe precizie în execuție."
+      },
+      "plastering_courses": {
+        "description": "Instruire practică în aplicarea tencuielii și tehnici de finisare utilizate în lucrările de construcții și renovare."
+      },
+      "wood_occupations_courses": {
+        "description": "Cursuri axate pe abilități de tâmplărie și dulgherie în domeniul construcțiilor."
+      },
+      "civil_engineering_courses": {
+        "description": "Formare profesională pentru activități legate de lucrări de infrastructură și inginerie civilă pe șantiere."
+      },
+      "cladding_courses": {
+        "description": "Cursuri despre instalarea și întreținerea sistemelor de fațadă pentru îmbunătățirea esteticii și izolării clădirilor."
+      },
+      "tiling_courses": {
+        "description": "Oferă abilități pentru montarea plăcilor ceramice pe pereți și podele în medii rezidențiale și comerciale."
+      },
+      "general_construction_courses": {
+        "description": "Instruire generală în domeniul construcțiilor, care acoperă competențele de bază necesare în mai multe meserii."
+      },
+      "multitrade_courses": {
+        "description": "Proiectat pentru persoane care efectuează activități generale de întreținere și reparații în mai multe domenii de lucru."
+      },
+      "ground_works_courses": {
+        "description": "Cursuri specializate în lucrări de fundație, sisteme de drenaj și activități de pregătire a terenului."
+      },
+      "legal_advice_courses": {
+        "description": "Cursuri care pregătesc cursanții să ofere consiliere juridică inițială și să înțeleagă procedurile și documentele legale."
+      },
+      "it_user_skills_courses": {
+        "description": "Instruire în competențe IT esențiale pentru productivitate la locul de muncă, utilizând software și instrumente digitale uzuale."
+      }
+    },
+    coursesDescriptions: {
+      level_1_award_in_health_and_safety_in_a_construction_environment: "Acest curs oferă instruire completă pentru certificatul de nivel 1 în sănătate și securitate în mediul construcțiilor.",
+      level_2_award_in_asbestos_awareness: "Acest curs oferă instruire completă pentru certificatul de nivel 2 privind conștientizarea riscurilor azbestului.",
+      level_2_award_in_body_massage_treatments: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în tratamente de masaj corporal.",
+      level_2_award_in_eyelash_and_eyebrow_treatments: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în tratamente pentru gene și sprâncene.",
+      level_2_award_in_facial_skincare_treatments: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în îngrijirea pielii faciale.",
+      level_2_award_in_makeup: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în machiaj.",
+      level_2_certificate_in_asbestos_removal_for_operatives: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în îndepărtarea azbestului pentru operatori.",
+      level_2_certificate_in_barbering: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în frizerie.",
+      level_2_certificate_in_body_massage_treatment: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în tratamente de masaj corporal.",
+      level_2_certificate_in_driving_goods_vehicles: "Acest curs oferă instruire completă pentru certificatul de nivel 2 pentru conducerea vehiculelor de marfă.",
+      level_2_certificate_in_nail_enhancement_services: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în servicii de extensii și îngrijire a unghiilor.",
+      level_2_certificate_in_nail_services: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în servicii de manichiură și pedichiură.",
+      level_2_certificate_in_waxing_the_face_and_body: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în epilarea feței și corpului.",
+      level_2_certificate_in_womens_hairdressing: "Acest curs oferă instruire completă pentru certificatul de nivel 2 în coafură pentru femei.",
+      level_2_diploma_for_beauty_therapists: "Acest curs oferă instruire completă pentru diploma de nivel 2 pentru terapeuți în frumusețe.",
+      level_2_diploma_in_construction_operations: "Acest curs oferă instruire completă pentru diploma de nivel 2 în operațiuni de construcții.",
+      level_2_diploma_in_ground_works_operations: "Acest curs oferă instruire completă pentru diploma de nivel 2 în lucrări de fundație și terasamente.",
+      level_2_diploma_in_it_user_skills: "Acest curs oferă instruire completă pentru diploma de nivel 2 în abilități IT pentru utilizatori.",
+      level_2_nvq_certificate_in_fitted_interiors: "Acest curs oferă instruire completă pentru certificatul NVQ de nivel 2 în amenajări interioare personalizate.",
+      level_2_nvq_certificate_in_wall_and_floor_tiling: "Acest curs oferă instruire completă pentru certificatul NVQ de nivel 2 în placarea pereților și pardoselilor.",
+      level_2_nvq_diploma_in_building_maintenance_multitrade_repair_and_refurbishment_operations: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în întreținerea clădirilor și reparații multidisciplinare.",
+      level_2_nvq_diploma_in_cladding_occupations: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în lucrări de placare.",
+      level_2_nvq_diploma_in_construction_and_civil_engineering_operations: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în construcții și lucrări inginerești civile.",
+      level_2_nvq_diploma_in_decorative_finishing_and_industrial_painting_occupations: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în finisaje decorative și vopsitorie industrială.",
+      level_2_nvq_diploma_in_plastering: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în tencuieli.",
+      level_2_nvq_diploma_in_wood_occupations: "Acest curs oferă instruire completă pentru diploma NVQ de nivel 2 în lucrări din lemn.",
+      level_3_award_in_education_and_training: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în educație și formare.",
+      level_3_award_in_eyelash_extension_application: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în aplicarea extensiilor pentru gene.",
+      level_3_award_in_providing_initial_legal_advice: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în oferirea de consiliere juridică inițială.",
+      level_3_certificate_in_assessing_vocational_achievement: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în evaluarea realizărilor profesionale.",
+      level_3_certificate_in_chemical_hair_straightening: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în îndreptarea chimică a părului.",
+      level_3_certificate_in_hair_extension_services: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în servicii de extensii pentru păr.",
+      level_3_certificate_in_teaching_and_training: "Acest curs oferă instruire completă pentru certificatul de nivel 3 în predare și instruire.",
+      level_3_diploma_in_aesthetic_practice: "Acest curs oferă instruire completă pentru diploma de nivel 3 în practici estetice.",
+      level_3_diploma_in_beauty_therapy_treatments: "Acest curs oferă instruire completă pentru diploma de nivel 3 în tratamente de înfrumusețare.",
+      level_4_award_in_the_iqa_of_assessment_processes_and_practices: "Acest curs oferă instruire completă pentru certificatul de nivel 4 în asigurarea calității proceselor de evaluare.",
+      level_4_award_in_understanding_disclosure_of_information: "Acest curs oferă instruire completă pentru certificatul de nivel 4 în înțelegerea dezvăluirii informațiilor.",
+      level_4_certificate_in_skin_tightening: "Acest curs oferă instruire completă pentru certificatul de nivel 4 în tratamente de fermitate a pielii.",
+      level_4_diploma_in_aesthetic_treatments_and_skin_science: "Acest curs oferă instruire completă pentru diploma de nivel 4 în tratamente estetice și știința pielii.",
+      level_4_diploma_in_aesthetic_treatments_and_skincare: "Acest curs oferă instruire completă pentru diploma de nivel 4 în tratamente estetice și îngrijirea pielii.",
+      level_4_diploma_in_laser_ipl_and_electrical_treatments: "Acest curs oferă instruire completă pentru diploma de nivel 4 în tratamente cu laser, IPL și dispozitive electrice.",
+      level_5_diploma_in_law: "Acest curs oferă instruire completă pentru diploma de nivel 5 în drept.",
+      level_5_diploma_in_teaching__further_education_and_skills: "Acest curs oferă instruire completă pentru diploma de nivel 5 în predare, educație și dezvoltarea competențelor.",
+      proqual_level_6_diploma_in_aesthetic_practice: "Acest curs oferă instruire completă pentru diploma ProQual de nivel 6 în practici estetice.",
+      proqual_level_7_diploma_in_aesthetic_practice: "Acest curs oferă instruire completă pentru diploma ProQual de nivel 7 în practici estetice.",
+      proqual_level_7_diploma_in_facial_treatments_using_botulinum_toxin: "Acest curs oferă instruire completă pentru diploma ProQual de nivel 7 în tratamente faciale cu toxină botulinică.",
+      proqual_level_7_diploma_in_mono_and_polydioxanone_thread_treatments: "Acest curs oferă instruire completă pentru diploma ProQual de nivel 7 în tratamente cu fire mono și polidioxanonă."
     }
   }
 }

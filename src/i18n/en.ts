@@ -198,6 +198,132 @@ export default {
         description: "This group equips you with a comprehensive skill set across core beauty treatments—covering everything from facials and skincare to more advanced beauty therapy techniques. Ideal for those seeking a well-rounded foundation or looking to progress their career in a salon or spa environment.",
         completeDescription: "Our Beauty Therapy Group qualification combines the Level 2 Diploma for Beauty Therapists, the Level 2 Award in Facial Skincare Treatments, and the Level 3 Diploma in Beauty Therapy Treatments to form a comprehensive training pathway. You’ll cover a wide range of essential skills, from manicures, waxing, and facial treatments to more advanced techniques like body massage and electrical facial therapies. This breadth of knowledge ensures you can offer a full suite of professional services in any salon or spa environment.\b\b\bThe program also focuses on core business and customer service elements, teaching you how to conduct effective client consultations, maintain impeccable hygiene standards, and manage appointments efficiently. By gaining both theoretical understanding and practical competence, you’ll be well-positioned to excel in a competitive job market or even launch your own beauty venture. This group of qualifications is an excellent choice for those seeking a thorough foundation in modern beauty therapy with plenty of room for specialization and career growth."
       }
+    },
+    coursesGroup: {
+      assessor_courses: {
+        description: "This course prepares individuals to assess occupational competence in the work environment and vocational skills in classroom settings."
+      },
+      iqa_courses: {
+        description: "This course is designed for those who internally quality assure the assessment process within vocational education and training."
+      },
+      trainer_courses: {
+        description: "Courses aimed at individuals who want to teach or train in further education or adult learning environments."
+      },
+      beauty_therapy_courses: {
+        description: "These courses cover a wide range of treatments including skincare, makeup, and hair removal for aspiring beauty therapists."
+      },
+      massage_courses: {
+        description: "Focused on body massage techniques, these courses equip learners with practical and theoretical knowledge for professional practice."
+      },
+      nail_courses: {
+        description: "Courses that provide training in nail treatments including enhancements, extensions, and nail care services."
+      },
+      eyelash_courses: {
+        description: "These courses teach the application of eyelash extensions and eyebrow treatments for beauty professionals."
+      },
+      hairdressing_courses: {
+        description: "Courses covering women\u2019s hairdressing including cutting, styling, colouring, and advanced chemical treatments."
+      },
+      barbering_courses: {
+        description: "These courses provide essential skills for men\u2019s hair cutting, styling, and grooming within barbering settings."
+      },
+      advanced_aesthetic_courses: {
+        description: "Advanced qualifications for practitioners in non-invasive aesthetic procedures, skin science, and cosmetic treatments."
+      },
+      health_and_safety_courses: {
+        description: "Introductory training to ensure safe practices in the workplace, especially relevant to the construction industry."
+      },
+      asbestos_courses: {
+        description: "Courses focusing on asbestos awareness and safe handling or removal in compliance with health and safety regulations."
+      },
+      driving_courses: {
+        description: "Training for professional operation of goods vehicles, including safety, vehicle checks, and route planning."
+      },
+      painting_courses: {
+        description: "Covers decorative and industrial painting techniques used in domestic, commercial, and construction environments."
+      },
+      fitting_and_interiors_courses: {
+        description: "Courses related to fitting kitchens, bathrooms, and interiors with a focus on precise installation techniques."
+      },
+      plastering_courses: {
+        description: "Practical training in applying plaster and rendering techniques used in building and renovation work."
+      },
+      wood_occupations_courses: {
+        description: "Courses focused on carpentry and joinery skills within the construction sector."
+      },
+      civil_engineering_courses: {
+        description: "Training for roles involved in groundwork and civil engineering activities on construction sites."
+      },
+      cladding_courses: {
+        description: "Courses on installing and maintaining cladding systems on buildings to improve aesthetics and insulation."
+      },
+      tiling_courses: {
+        description: "Provides skills for wall and floor tiling in both domestic and commercial settings using various materials."
+      },
+      general_construction_courses: {
+        description: "Broad-based construction training covering basic skills needed across multiple trades."
+      },
+      multitrade_courses: {
+        description: "Designed for individuals performing general maintenance and repair tasks involving multiple building trades."
+      },
+      ground_works_courses: {
+        description: "Specialised courses on substructure work, drainage systems, and groundwork activities."
+      },
+      legal_advice_courses: {
+        description: "Courses that prepare learners to provide initial legal advice and understand legal procedures and documentation."
+      },
+      it_user_skills_courses: {
+        description: "Training in essential IT skills for workplace productivity, using common software and digital tools."
+      },
+    },
+    coursesDescriptions: {
+      level_1_award_in_health_and_safety_in_a_construction_environment: "This course provides comprehensive training in level 1 award in health and safety in a construction environment.",
+      level_2_award_in_asbestos_awareness: "This course provides comprehensive training in level 2 award in asbestos awareness.",
+      level_2_award_in_body_massage_treatments: "This course provides comprehensive training in level 2 award in body massage treatments.",
+      level_2_award_in_eyelash_and_eyebrow_treatments: "This course provides comprehensive training in level 2 award in eyelash and eyebrow treatments.",
+      level_2_award_in_facial_skincare_treatments: "This course provides comprehensive training in level 2 award in facial skincare treatments.",
+      level_2_award_in_makeup: "This course provides comprehensive training in level 2 award in makeup.",
+      level_2_certificate_in_asbestos_removal_for_operatives: "This course provides comprehensive training in level 2 certificate in asbestos removal for operatives.",
+      level_2_certificate_in_barbering: "This course provides comprehensive training in level 2 certificate in barbering.",
+      level_2_certificate_in_body_massage_treatment: "This course provides comprehensive training in level 2 certificate in body massage treatment.",
+      level_2_certificate_in_driving_goods_vehicles: "This course provides comprehensive training in level 2 certificate in driving goods vehicles.",
+      level_2_certificate_in_nail_enhancement_services: "This course provides comprehensive training in level 2 certificate in nail enhancement services.",
+      level_2_certificate_in_nail_services: "This course provides comprehensive training in level 2 certificate in nail services.",
+      level_2_certificate_in_waxing_the_face_and_body: "This course provides comprehensive training in level 2 certificate in waxing the face and body.",
+      level_2_certificate_in_womens_hairdressing: "This course provides comprehensive training in level 2 certificate in womens hairdressing.",
+      level_2_diploma_for_beauty_therapists: "This course provides comprehensive training in level 2 diploma for beauty therapists.",
+      level_2_diploma_in_construction_operations: "This course provides comprehensive training in level 2 diploma in construction operations.",
+      level_2_diploma_in_ground_works_operations: "This course provides comprehensive training in level 2 diploma in ground works operations.",
+      level_2_diploma_in_it_user_skills: "This course provides comprehensive training in level 2 diploma in it user skills.",
+      level_2_nvq_certificate_in_fitted_interiors: "This course provides comprehensive training in level 2 nvq certificate in fitted interiors.",
+      level_2_nvq_certificate_in_wall_and_floor_tiling: "This course provides comprehensive training in level 2 nvq certificate in wall and floor tiling.",
+      level_2_nvq_diploma_in_building_maintenance_multitrade_repair_and_refurbishment_operations: "This course provides comprehensive training in level 2 nvq diploma in building maintenance multitrade repair and refurbishment operations.",
+      level_2_nvq_diploma_in_cladding_occupations: "This course provides comprehensive training in level 2 nvq diploma in cladding occupations.",
+      level_2_nvq_diploma_in_construction_and_civil_engineering_operations: "This course provides comprehensive training in level 2 nvq diploma in construction and civil engineering operations.",
+      level_2_nvq_diploma_in_decorative_finishing_and_industrial_painting_occupations: "This course provides comprehensive training in level 2 nvq diploma in decorative finishing and industrial painting occupations.",
+      level_2_nvq_diploma_in_plastering: "This course provides comprehensive training in level 2 nvq diploma in plastering.",
+      level_2_nvq_diploma_in_wood_occupations: "This course provides comprehensive training in level 2 nvq diploma in wood occupations.",
+      level_3_award_in_education_and_training: "This course provides comprehensive training in level 3 award in education and training.",
+      level_3_award_in_eyelash_extension_application: "This course provides comprehensive training in level 3 award in eyelash extension application.",
+      level_3_award_in_providing_initial_legal_advice: "This course provides comprehensive training in level 3 award in providing initial legal advice.",
+      level_3_certificate_in_assessing_vocational_achievement: "This course provides comprehensive training in level 3 certificate in assessing vocational achievement.",
+      level_3_certificate_in_chemical_hair_straightening: "This course provides comprehensive training in level 3 certificate in chemical hair straightening.",
+      level_3_certificate_in_hair_extension_services: "This course provides comprehensive training in level 3 certificate in hair extension services.",
+      level_3_certificate_in_teaching_and_training: "This course provides comprehensive training in level 3 certificate in teaching and training.",
+      level_3_diploma_in_aesthetic_practice: "This course provides comprehensive training in level 3 diploma in aesthetic practice.",
+      level_3_diploma_in_beauty_therapy_treatments: "This course provides comprehensive training in level 3 diploma in beauty therapy treatments.",
+      level_4_award_in_the_iqa_of_assessment_processes_and_practices: "This course provides comprehensive training in level 4 award in the iqa of assessment processes and practices.",
+      level_4_award_in_understanding_disclosure_of_information: "This course provides comprehensive training in level 4 award in understanding disclosure of information.",
+      level_4_certificate_in_skin_tightening: "This course provides comprehensive training in level 4 certificate in skin tightening.",
+      level_4_diploma_in_aesthetic_treatments_and_skin_science: "This course provides comprehensive training in level 4 diploma in aesthetic treatments and skin science.",
+      level_4_diploma_in_aesthetic_treatments_and_skincare: "This course provides comprehensive training in level 4 diploma in aesthetic treatments and skincare.",
+      level_4_diploma_in_laser_ipl_and_electrical_treatments: "This course provides comprehensive training in level 4 diploma in laser, ipl, and electrical treatments.",
+      level_5_diploma_in_law: "This course provides comprehensive training in level 5 diploma in law.",
+      level_5_diploma_in_teaching__further_education_and_skills: "This course provides comprehensive training in level 5 diploma in teaching  further education and skills.",
+      proqual_level_6_diploma_in_aesthetic_practice: "This course provides comprehensive training in proqual level 6 diploma in aesthetic practice.",
+      proqual_level_7_diploma_in_aesthetic_practice: "This course provides comprehensive training in proqual level 7 diploma in aesthetic practice.",
+      proqual_level_7_diploma_in_facial_treatments_using_botulinum_toxin: "This course provides comprehensive training in proqual level 7 diploma in facial treatments using botulinum toxin.",
+      proqual_level_7_diploma_in_mono_and_polydioxanone_thread_treatments: "This course provides comprehensive training in proqual level 7 diploma in mono and polydioxanone thread treatments."
     }
   }
 }

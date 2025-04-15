@@ -196,6 +196,133 @@ export default {
         completeDescription:
           "Nuestra cualificación del Grupo de Terapia de Belleza combina el Diploma de Nivel 2 para Terapeutas de Belleza, el Premio de Nivel 2 en Tratamientos de Cuidado Facial y el Diploma de Nivel 3 en Tratamientos de Terapia de Belleza para formar un itinerario de formación integral. Cubrirás una amplia gama de habilidades esenciales, desde manicuras, depilación y tratamientos faciales hasta técnicas más avanzadas como masajes corporales y terapias faciales con aparatos eléctricos. Esta variedad de conocimientos te asegura la capacidad de ofrecer un conjunto completo de servicios profesionales en cualquier salón o spa.\n\nEl programa también se centra en los elementos principales del negocio y la atención al cliente, enseñándote cómo llevar a cabo consultas efectivas, mantener altos estándares de higiene y gestionar las reservas de manera eficiente. Al adquirir tanto comprensión teórica como competencia práctica, estarás en una posición privilegiada para destacar en un mercado laboral competitivo o incluso para lanzar tu propio emprendimiento de belleza. Este grupo de cualificaciones es una excelente opción para quienes buscan una base sólida en la terapia de belleza moderna con amplio margen de especialización y crecimiento profesional."
       }
+    },
+    coursesGroup: {
+      "assessor_courses": {
+        "description": "Este curso prepara a los individuos para evaluar la competencia ocupacional en el entorno laboral y las habilidades vocacionales en entornos educativos."
+      },
+      "iqa_courses": {
+        "description": "Este curso está diseñado para quienes garantizan la calidad interna del proceso de evaluación en la formación profesional."
+      },
+      "trainer_courses": {
+        "description": "Cursos dirigidos a personas que desean enseñar o capacitar en la educación superior o en entornos de aprendizaje para adultos."
+      },
+      "beauty_therapy_courses": {
+        "description": "Estos cursos abarcan una amplia gama de tratamientos como el cuidado de la piel, maquillaje y depilación, destinados a futuros terapeutas de belleza."
+      },
+      "massage_courses": {
+        "description": "Enfocados en técnicas de masaje corporal, estos cursos brindan conocimientos prácticos y teóricos para la práctica profesional."
+      },
+      "nail_courses": {
+        "description": "Cursos que ofrecen formación en tratamientos de uñas, incluyendo extensiones, mejoras y servicios de cuidado de uñas."
+      },
+      "eyelash_courses": {
+        "description": "Estos cursos enseñan la aplicación de extensiones de pestañas y tratamientos de cejas para profesionales de la belleza."
+      },
+      "hairdressing_courses": {
+        "description": "Cursos de peluquería femenina que incluyen corte, peinado, coloración y tratamientos químicos avanzados."
+      },
+      "barbering_courses": {
+        "description": "Estos cursos proporcionan habilidades esenciales para el corte, peinado y arreglo del cabello masculino en entornos de barbería."
+      },
+      "advanced_aesthetic_courses": {
+        "description": "Certificaciones avanzadas para profesionales en procedimientos estéticos no invasivos, ciencia de la piel y tratamientos cosméticos."
+      },
+      "health_and_safety_courses": {
+        "description": "Formación introductoria para garantizar prácticas seguras en el lugar de trabajo, especialmente en el sector de la construcción."
+      },
+      "asbestos_courses": {
+        "description": "Cursos centrados en la concienciación sobre el amianto y su manipulación o eliminación segura según las normativas de seguridad."
+      },
+      "driving_courses": {
+        "description": "Formación para la operación profesional de vehículos de transporte de mercancías, incluyendo seguridad, revisión de vehículos y planificación de rutas."
+      },
+      "painting_courses": {
+        "description": "Cubre técnicas de pintura decorativa e industrial utilizadas en entornos domésticos, comerciales y de construcción."
+      },
+      "fitting_and_interiors_courses": {
+        "description": "Cursos relacionados con la instalación de cocinas, baños e interiores, con un enfoque en técnicas de instalación precisas."
+      },
+      "plastering_courses": {
+        "description": "Formación práctica en la aplicación de yeso y técnicas de enlucido utilizadas en obras de construcción y renovación."
+      },
+      "wood_occupations_courses": {
+        "description": "Cursos centrados en habilidades de carpintería y ebanistería dentro del sector de la construcción."
+      },
+      "civil_engineering_courses": {
+        "description": "Formación para roles involucrados en trabajos de cimentación e ingeniería civil en obras de construcción."
+      },
+      "cladding_courses": {
+        "description": "Cursos sobre la instalación y mantenimiento de sistemas de revestimiento en edificios para mejorar la estética y el aislamiento."
+      },
+      "tiling_courses": {
+        "description": "Proporciona habilidades para la colocación de azulejos en paredes y suelos en entornos residenciales y comerciales."
+      },
+      "general_construction_courses": {
+        "description": "Formación general en construcción que abarca habilidades básicas necesarias en varios oficios."
+      },
+      "multitrade_courses": {
+        "description": "Diseñado para personas que realizan tareas generales de mantenimiento y reparación en múltiples oficios."
+      },
+      "ground_works_courses": {
+        "description": "Cursos especializados en trabajos de subestructura, sistemas de drenaje y actividades de preparación del terreno."
+      },
+      "legal_advice_courses": {
+        "description": "Cursos que preparan a los estudiantes para brindar asesoramiento legal inicial y comprender los procedimientos y documentos legales."
+      },
+      "it_user_skills_courses": {
+        "description": "Formación en habilidades informáticas esenciales para la productividad en el trabajo, utilizando software y herramientas digitales comunes."
+      }
+    },
+    coursesDescriptions: {
+      level_1_award_in_health_and_safety_in_a_construction_environment: "Este curso proporciona formación completa en el certificado de nivel 1 en salud y seguridad en el entorno de la construcción.",
+      level_2_award_in_asbestos_awareness: "Este curso proporciona formación completa en el certificado de nivel 2 sobre concienciación del amianto.",
+      level_2_award_in_body_massage_treatments: "Este curso proporciona formación completa en el certificado de nivel 2 en tratamientos de masaje corporal.",
+      level_2_award_in_eyelash_and_eyebrow_treatments: "Este curso proporciona formación completa en el certificado de nivel 2 en tratamientos de pestañas y cejas.",
+      level_2_award_in_facial_skincare_treatments: "Este curso proporciona formación completa en el certificado de nivel 2 en tratamientos de cuidado facial.",
+      level_2_award_in_makeup: "Este curso proporciona formación completa en el certificado de nivel 2 en maquillaje.",
+      level_2_certificate_in_asbestos_removal_for_operatives: "Este curso proporciona formación completa en el certificado de nivel 2 para la eliminación de amianto para operarios.",
+      level_2_certificate_in_barbering: "Este curso proporciona formación completa en el certificado de nivel 2 en barbería.",
+      level_2_certificate_in_body_massage_treatment: "Este curso proporciona formación completa en el certificado de nivel 2 en tratamiento de masaje corporal.",
+      level_2_certificate_in_driving_goods_vehicles: "Este curso proporciona formación completa en el certificado de nivel 2 para la conducción de vehículos de mercancías.",
+      level_2_certificate_in_nail_enhancement_services: "Este curso proporciona formación completa en el certificado de nivel 2 en servicios de mejora de uñas.",
+      level_2_certificate_in_nail_services: "Este curso proporciona formación completa en el certificado de nivel 2 en servicios de manicura.",
+      level_2_certificate_in_waxing_the_face_and_body: "Este curso proporciona formación completa en el certificado de nivel 2 en depilación del rostro y el cuerpo.",
+      level_2_certificate_in_womens_hairdressing: "Este curso proporciona formación completa en el certificado de nivel 2 en peluquería femenina.",
+      level_2_diploma_for_beauty_therapists: "Este curso proporciona formación completa en el diploma de nivel 2 para terapeutas de belleza.",
+      level_2_diploma_in_construction_operations: "Este curso proporciona formación completa en el diploma de nivel 2 en operaciones de construcción.",
+      level_2_diploma_in_ground_works_operations: "Este curso proporciona formación completa en el diploma de nivel 2 en trabajos de cimentación.",
+      level_2_diploma_in_it_user_skills: "Este curso proporciona formación completa en el diploma de nivel 2 en habilidades de informática para usuarios.",
+      level_2_nvq_certificate_in_fitted_interiors: "Este curso proporciona formación completa en el certificado NVQ de nivel 2 en interiores a medida.",
+      level_2_nvq_certificate_in_wall_and_floor_tiling: "Este curso proporciona formación completa en el certificado NVQ de nivel 2 en alicatado de paredes y suelos.",
+      level_2_nvq_diploma_in_building_maintenance_multitrade_repair_and_refurbishment_operations: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en mantenimiento de edificios, reparación multioficio y rehabilitación.",
+      level_2_nvq_diploma_in_cladding_occupations: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en ocupaciones de revestimiento.",
+      level_2_nvq_diploma_in_construction_and_civil_engineering_operations: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en construcción e ingeniería civil.",
+      level_2_nvq_diploma_in_decorative_finishing_and_industrial_painting_occupations: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en acabados decorativos y pintura industrial.",
+      level_2_nvq_diploma_in_plastering: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en enlucido.",
+      level_2_nvq_diploma_in_wood_occupations: "Este curso proporciona formación completa en el diploma NVQ de nivel 2 en ocupaciones de carpintería.",
+      level_3_award_in_education_and_training: "Este curso proporciona formación completa en el certificado de nivel 3 en educación y formación.",
+      level_3_award_in_eyelash_extension_application: "Este curso proporciona formación completa en el certificado de nivel 3 en aplicación de extensiones de pestañas.",
+      level_3_award_in_providing_initial_legal_advice: "Este curso proporciona formación completa en el certificado de nivel 3 en asesoramiento jurídico inicial.",
+      level_3_certificate_in_assessing_vocational_achievement: "Este curso proporciona formación completa en el certificado de nivel 3 en evaluación de logros vocacionales.",
+      level_3_certificate_in_chemical_hair_straightening: "Este curso proporciona formación completa en el certificado de nivel 3 en alisado químico del cabello.",
+      level_3_certificate_in_hair_extension_services: "Este curso proporciona formación completa en el certificado de nivel 3 en servicios de extensiones capilares.",
+      level_3_certificate_in_teaching_and_training: "Este curso proporciona formación completa en el certificado de nivel 3 en enseñanza y formación.",
+      level_3_diploma_in_aesthetic_practice: "Este curso proporciona formación completa en el diploma de nivel 3 en práctica estética.",
+      level_3_diploma_in_beauty_therapy_treatments: "Este curso proporciona formación completa en el diploma de nivel 3 en tratamientos de belleza.",
+      level_4_award_in_the_iqa_of_assessment_processes_and_practices: "Este curso proporciona formación completa en el certificado de nivel 4 en aseguramiento de calidad interna de procesos y prácticas de evaluación.",
+      level_4_award_in_understanding_disclosure_of_information: "Este curso proporciona formación completa en el certificado de nivel 4 sobre la comprensión de la divulgación de información.",
+      level_4_certificate_in_skin_tightening: "Este curso proporciona formación completa en el certificado de nivel 4 en tratamientos de reafirmación de la piel.",
+      level_4_diploma_in_aesthetic_treatments_and_skin_science: "Este curso proporciona formación completa en el diploma de nivel 4 en tratamientos estéticos y ciencia de la piel.",
+      level_4_diploma_in_aesthetic_treatments_and_skincare: "Este curso proporciona formación completa en el diploma de nivel 4 en tratamientos estéticos y cuidado de la piel.",
+      level_4_diploma_in_laser_ipl_and_electrical_treatments: "Este curso proporciona formación completa en el diploma de nivel 4 en tratamientos con láser, IPL y eléctricos.",
+      level_5_diploma_in_law: "Este curso proporciona formación completa en el diploma de nivel 5 en derecho.",
+      level_5_diploma_in_teaching__further_education_and_skills: "Este curso proporciona formación completa en el diploma de nivel 5 en enseñanza, educación superior y habilidades.",
+      proqual_level_6_diploma_in_aesthetic_practice: "Este curso proporciona formación completa en el diploma ProQual de nivel 6 en práctica estética.",
+      proqual_level_7_diploma_in_aesthetic_practice: "Este curso proporciona formación completa en el diploma ProQual de nivel 7 en práctica estética.",
+      proqual_level_7_diploma_in_facial_treatments_using_botulinum_toxin: "Este curso proporciona formación completa en el diploma ProQual de nivel 7 en tratamientos faciales con toxina botulínica.",
+      proqual_level_7_diploma_in_mono_and_polydioxanone_thread_treatments: "Este curso proporciona formación completa en el diploma ProQual de nivel 7 en tratamientos con hilos mono y polidioxanona."
     }
   }
 }
+
